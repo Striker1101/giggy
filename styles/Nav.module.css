@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.header > h3 {
+  color: rgb(48, 45, 45);
+}
+.image {
+  display: flex;
+  align-items: flex-end;
+}
+
+.image > h1 {
+  font-size: 10vh;
+  color: blue;
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav {
+  width: 100vw;
+}
+
+.mainUL {
+  display: flex;
+  border-radius: 20px;
+  z-index: 3;
+}
+.mainUL > li {
+  list-style: none;
+  background-color: rgb(48, 45, 45);
+  padding: 5px;
+  height: auto;
+  color: wheat;
+  width: 100%;
+  z-index: 3;
+}
+
+.sub0 {
+  flex-direction: column;
+  list-style: none;
+  display: none;
+  position: absolute;
+  padding-top: 5px;
+}
+.sub0 > a {
+  height: auto;
+  width: 100px;
+}
+
+.sub1 {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  left: 100px;
+  height: auto;
+  width: 100px;
+  top: 0;
+}
