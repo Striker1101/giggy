@@ -103,7 +103,7 @@ export default function Home() {
           <li>
             <h4>Offshore Rigs & Vessels</h4>
             <hr />
-            <Link href={"offshore/sale"}>
+            <Link href={"/rig/offsore_rig_for_sale"}>
               <img src="/home/img3.jpg" alt="" />
               <h2>Offshore Rigs & Vessels</h2>
             </Link>

@@ -42,7 +42,7 @@ function Nav(props) {
           "display:flex; background-color: white;";
       });
       item.addEventListener("mouseleave", () => {
-        item.style.cssText = "background-color: rgb(48, 45, 45); color: wheat";;
+        item.style.cssText = "background-color: rgb(48, 45, 45); color: wheat";
         item.children[0].style.cssText =
           "display:none; background-color: rgb(48, 45, 45)";
       });
@@ -85,9 +85,9 @@ function Nav(props) {
           <li className="fold">
             About Us
             <ul className={styles.sub0}>
-              <Link href={"/about"}>About Us</Link>
-              <Link href={"/about/consultant"}>Consultant Fees</Link>
-              <Link href={"/about/finance"}> Financing</Link>
+              <Link href={"/about_us"}>About Us</Link>
+              <Link href={"/about_us/consultant"}>Consultant Fees</Link>
+              <Link href={"/about_us/finance"}> Financing</Link>
             </ul>
           </li>
           <li className="fold">

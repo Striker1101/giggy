@@ -44,12 +44,14 @@
   list-style: none;
   display: none;
   position: absolute;
-  padding-top: 5px;
+  padding-top: 10px;
+  top: 45px;
 }
 .sub0 > a {
   height: auto;
   width: 100px;
   padding: 5px;
+  border-bottom: 2px dotted grey;
 }
 
 .sub1 {
