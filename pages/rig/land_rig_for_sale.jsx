@@ -50,6 +50,7 @@ gyroscope; picture-in-picture"
           plus shipping. Final price to be determined. Rig can be ready in 90
           days or less. <br />
         </p>
+        <br />
         ***********************************************************
         <h5>European Made 2000 HP</h5>
         <h3>DRILLMEC 2000HP LAND RIG PACKAGE</h3>
@@ -92,7 +93,7 @@ gyroscope; picture-in-picture"
           <br />
         </p>
         PRICE: Approximately $20.5 million plus shipping. Final price to be
-        determined.
+        determined. <br />
         *************************************************************
       </div>
       <div>

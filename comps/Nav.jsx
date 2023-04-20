@@ -67,9 +67,10 @@ function Nav(props) {
           <h1>GIG</h1>
         </Link>
         <h3 className={styles.text}>
-          Land DrilLinkng Rigs
+          Land Drilling Rigs
           <br />
           Offshore Rigs & Vessels
+          <br />
           <br />
           Major Rig Components
           <br />

@@ -7,11 +7,46 @@
   padding: 10px;
 }
 
-.lfs {
+.lfs,
+.ofs {
   padding: 20px;
 }
 
 .lfs > h2,
-.lfs > div>h3 {
+.lfs > div > h3,
+.mfs > h3,
+.mfs > div > h3,
+.ofs > h3,
+.ofs > div > h3 {
   margin-top: 15px;
 }
+.hold {
+  display: flex;
+  gap: 5px;
+}
+.holder {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+@media (max-width: 20px) {
+  .holder {
+    width: 70%;
+  }
+}
+
+.imgHolder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.imgHold > img {
+  width: 100%;
+}
+
+.article img {
+  float: left;
+  margin-right: 20px;
+}
+
