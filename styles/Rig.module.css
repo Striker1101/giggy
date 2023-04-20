@@ -1,0 +1,17 @@
+.cover > h2,
+.cover > h3 {
+  margin-top: 25px;
+}
+
+.cover {
+  padding: 10px;
+}
+
+.lfs {
+  padding: 20px;
+}
+
+.lfs > h2,
+.lfs > div>h3 {
+  margin-top: 15px;
+}

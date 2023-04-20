@@ -42,7 +42,7 @@ function Nav(props) {
           "display:flex; background-color: white;";
       });
       item.addEventListener("mouseleave", () => {
-        item.style.cssText = "background-color: rgb(48, 45, 45);color: wheat";
+        item.style.cssText = "background-color: rgb(48, 45, 45); color: wheat";;
         item.children[0].style.cssText =
           "display:none; background-color: rgb(48, 45, 45)";
       });
@@ -78,7 +78,7 @@ function Nav(props) {
       </div>
       <nav className={styles.nav}>
         <ul className={styles.mainUL}>
-          <li>
+          <li className={styles.fold}>
             <Link href={"/"}>Home</Link>
           </li>
           <li className="fold">
@@ -126,7 +126,7 @@ function Nav(props) {
                         return (
                           <Link
                             key={i}
-                            href={"/offshore_rig/" + item.name + sub}
+                            href={"/offshore_rig/" + item.name + "/" + sub}
                           >
                             {sub}
                           </Link>
@@ -144,7 +144,7 @@ function Nav(props) {
               <Link href={"/Equipment/nov-bop-specials"}>nov-bop-specials</Link>
             </ul>
           </li>
-          <li>
+          <li className={styles.fold}>
             <Link href={"/quotes"}> Quotes</Link>
           </li>
         </ul>

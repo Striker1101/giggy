@@ -23,7 +23,6 @@
 
 .mainUL {
   display: flex;
-  border-radius: 20px;
   z-index: 3;
 }
 .mainUL > li {
@@ -63,4 +62,8 @@
 .sub1 a {
   padding: 5px;
   border-bottom: 2px solid grey;
+}
+.fold:hover {
+  background-color: white;
+  color: black;
 }
