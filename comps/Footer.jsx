@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../styles/Footer.module.css";
-import { EventAvailable } from "@material-ui/icons";
 import Link from "next/link";
 function Footer(props) {
   
