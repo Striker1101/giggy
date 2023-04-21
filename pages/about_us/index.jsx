@@ -1,7 +1,6 @@
 import React from "react";
 import Navigation from "@/comps/Navigator";
 import DottedHR from "@/comps/DottedHR";
-import Link from "next/link";
 import styles from "@/styles/About_Us.module.css";
 function index(props) {
   return (
