@@ -8,7 +8,6 @@ function Offsore_rig_for_sale(props) {
   return (
     <main className={styles.ofs}>
       <Navigation />
-      <DottedHR />
       <h3>Offshore Rigs for Sale</h3>
       <DottedHR />
       <p>
@@ -92,7 +91,7 @@ gyroscope; picture-in-picture"
           depending on final configurations. We will need the LOI & POF for
           official quotation.
           <br />
-          ****************************************************************************************
+          ***************************************************************
         </p>
       </div>
       <div className={styles.article}>
@@ -148,7 +147,7 @@ gyroscope; picture-in-picture"
           <br />
           Price: We will need the LOI & POF for official quotation.
           <br />
-          *************************************************************************************
+         ***************************************************************
         </p>
       </div>
       <div className={styles.article}>
@@ -189,7 +188,7 @@ gyroscope; picture-in-picture"
           <br />
           Price: We will need the LOI & POF for official quotation.
           <br />
-          *************************************************************************************
+          ************************************************************
         </p>
       </div>
       <div className={styles.article}>
@@ -229,7 +228,7 @@ gyroscope; picture-in-picture"
           <br />
           Price: We will need the LOI & POF for official quotation.
           <br />
-          *************************************************************************
+          *************************************************************
         </p>
       </div>
     </main>

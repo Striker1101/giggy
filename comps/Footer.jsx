@@ -4,7 +4,7 @@ import Link from "next/link";
 function Footer(props) {
   return (
     <div>
-      <div class={styles.footer}>
+      <div className={styles.footer}>
         <Link href="#" rel="nofollow">
           Return to top of page
         </Link>

@@ -131,12 +131,12 @@ function Nov_bop_specials(props) {
       </div>
       <center>
         <h6>
-          Oil Rigs Now, LLC <br />
+          Giggy, LLC <br />
           Houston, TX
           <br />
           713-570-6450
           <br />
-          info@OilRigsNow.com
+          info@Giggy.com
           <br />
           <Link href={"/quotes"} style={{ color: "blue" }}>
             Request for Quote

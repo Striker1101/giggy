@@ -10,26 +10,32 @@ function Nav(props) {
   const offshore_rig = useRef([
     {
       name: "Barge Rigs",
+      link: "barge_rig",
       arrs: [],
     },
     {
       name: "200 ft. Jack-ups",
+      link: "200_ft",
       arrs: [],
     },
     {
       name: "300 ft. Jack-ups",
-      arrs: ["CP-300", "DSJ-300", "Super M2"],
+      link: "300_ft",
+      arrs: ["CP-300", "DSJ-300", "Super-M2"],
     },
     {
       name: "350 ft. Jack-ups",
+      link: "350_ft",
       arrs: ["CJ46"],
     },
     {
       name: "400 ft. Jack-ups",
-      arrs: ["JU-2000E0", "CP-400"],
+      link: "400_ft",
+      arrs: ["JU-2000", "CP-400"],
     },
     {
       name: "Semi-Submersibles",
+      link: "semi_submersibles",
       arrs: [],
     },
   ]);
@@ -104,7 +110,7 @@ function Nav(props) {
                 return (
                   <Link
                     key={i}
-                    href={"/offshore_rig/" + item.name}
+                    href={"/offshore_rig/" + item.link}
                     className="fold"
                   >
                     {item.name}
@@ -113,7 +119,7 @@ function Nav(props) {
                         return (
                           <Link
                             key={i}
-                            href={"/offshore_rig/" + item.name + "/" + sub}
+                            href={"/offshore_rig/" + item.link + "/" + sub}
                           >
                             {sub}
                           </Link>
