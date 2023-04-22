@@ -23,7 +23,6 @@
   display: flex;
   gap: 5px;
   width: 100%;
-  background-color: whitesmoke;
 }
 .sales > li > hr {
   margin-bottom: 10px;
