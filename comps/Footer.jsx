@@ -18,7 +18,7 @@ function Footer(props) {
       <center className={styles.certs}>
         <b>
           Copyright 2011-2018 Giggy, LLC - Houston, TX | 713-570-6450 |
-          info@OilRigsNow.com
+          info@Giggy.com
         </b>{" "}
         | <Link href="/certs/legal-notices/">Legal Notices</Link> |{" "}
         <Link href="/certs/terms-and-conditions/">Terms and Conditions</Link> |{" "}
