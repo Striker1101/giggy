@@ -10,7 +10,7 @@ function Finance(props) {
       <h3>Financing Your Drilling Rig Purchase</h3>
       <DottedHR />
       <p>
-        Oil Rigs Now may be able to assist companies with their drilling rig
+        Giggy may be able to assist companies with their drilling rig
         purchasing. We work with financial institutions ready to serve companies
         with their drilling rigs and other large equipment purchases. Contact us
         through our RFQ for information.

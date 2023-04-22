@@ -152,7 +152,7 @@ export default function Home() {
               <hr />
             </div>
             <h3>
-              Oil Rigs Now, LLC <br />
+              Giggy, LLC <br />
               Houston, Texas <br />
               713-570-6450 <br />
               info@giggy.com <br />

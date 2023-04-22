@@ -1,0 +1,9 @@
+.cover > h3,
+.cover > div > h3,
+.cons > h3 {
+  margin-top: 15px;
+}
+.cover,
+.cons {
+  padding: 10px;
+}

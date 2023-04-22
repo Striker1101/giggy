@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from "@/styles/Nav.module.css";
-import classNames from "classnames";
 import { useRef } from "react";
 import { useEffect } from "react";
+import Icon from "./Icon";
 function Nav(props) {
   const land_rig = useRef([1000, 1200, 1300, 1500, 2000, 3000]);
   const offshore_rig = useRef([
@@ -51,21 +51,7 @@ function Nav(props) {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <Link href={"/"} className={styles.image}>
-          <Image
-            style={{
-              layout: "fill",
-              objectFit: "cover",
-              objectPosition: "center",
-              margin: "0",
-            }}
-            src="/icon.svg"
-            alt="icon"
-            height={150}
-            width={55}
-          />
-          <h1>GIG</h1>
-        </Link>
+        <Icon />
         <h3 className={styles.text}>
           Land Drilling Rigs
           <br />
@@ -105,7 +91,7 @@ function Nav(props) {
           <li className="fold">
             Mobile Rig
             <ul className={styles.sub0}>
-              <Link href={"/mobile_rig/mobile rig for sale"}>
+              <Link href={"/mobile_rig/mobile_rig_for_sale"}>
                 Mobile Workover Drilling Rigs for Sale
               </Link>
               <Link href={"/mobile_rig/cabot_750"}> Cabot 750</Link>
@@ -142,7 +128,7 @@ function Nav(props) {
           <li className="fold">
             Equipment
             <ul className={styles.sub0}>
-              <Link href={"/Equipment/nov-bop-specials"}>nov-bop-specials</Link>
+              <Link href={"/equipment/nov_bop_specials"}>nov-bop-specials</Link>
             </ul>
           </li>
           <li className={styles.fold}>

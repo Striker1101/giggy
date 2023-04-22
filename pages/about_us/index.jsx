@@ -22,7 +22,7 @@ function index(props) {
       <div className={styles.article}>
         <img src="/about_us/profile.jpg" alt="" />
         <h4>
-          Michael P. Mulkern – B.S., M.A., P.G. – President – Oil Rigs Now, LLC,
+          Michael P. Mulkern – B.S., M.A., P.G. – President – Giggy, LLC,
           Houston Texas
         </h4>
         <p>
@@ -32,9 +32,9 @@ function index(props) {
           gas exploration and development projects around the world, working on
           projects in over 50 countries, participating in many new oil and gas
           discoveries. In 2001 he went into consulting and private enterprise.
-          Oil Rigs Now was formed in 2011 with a mission to build a “go-to”
-          destination on the web for buying or selling high quality oil drilling
-          rigs and related equipment.
+          Giggy was formed in 2011 with a mission to build a “go-to” destination
+          on the web for buying or selling high quality oil drilling rigs and
+          related equipment.
         </p>
       </div>
     </main>
