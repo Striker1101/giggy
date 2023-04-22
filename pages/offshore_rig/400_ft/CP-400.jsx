@@ -27,7 +27,7 @@ function barge_rig(props) {
       <br />
       <center>
         <h6>
-          Oil Rigs Now, LLC <br />
+          Giggy, LLC <br />
           Houston, TX
           <br />
           713-570-6450

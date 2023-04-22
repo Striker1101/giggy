@@ -9,8 +9,8 @@ function Semi_Submersibles() {
       <h3>Semi-Submersibles</h3>
       <DottedHR />
       <p>
-        Oil Rigs Now can source semi-submersible drilling rigs, new or used, for
-        sale or charter. Please contact us.
+        Giggy can source semi-submersible drilling rigs, new or used, for sale
+        or charter. Please contact us.
       </p>
       <br />
       <iframe

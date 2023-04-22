@@ -13,8 +13,8 @@ function barge_rig(props) {
         <img src="/offshore/inland_barge.png" alt="" />
         <div>
           <p>
-            Oil Rigs Now can source barge drilling rigs for sale or lease.
-            Please contact us.
+            Giggy can source barge drilling rigs for sale or lease. Please
+            contact us.
           </p>
           <br />
           <br />
