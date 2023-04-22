@@ -359,7 +359,9 @@ function Index(props) {
               </label>
             </div>
           </label>
-          <input type="submit" value="Submit" />
+          <center>
+            <input type="submit" value="Submit" />
+          </center>
         </form>
       </main>
     </div>
