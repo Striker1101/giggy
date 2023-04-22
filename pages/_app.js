@@ -5,9 +5,13 @@ export default function App({ Component, pageProps }) {
   return (
     <div className="container">
       <div className="wrapper">
-        <Nav />
+        <div className="nav">
+          <Nav />
+        </div>
         <Component {...pageProps} />
-        <Footer />
+        <div className="fotter">
+          <Footer />
+        </div>
       </div>
     </div>
   );

@@ -20,14 +20,11 @@
 }
 .nav {
   width: 100%;
-  padding: 15px;
-  border-radius: 10px;
 }
 
 .mainUL {
   display: flex;
   z-index: 3;
-  border-radius: 10px;
 }
 .mainUL > li {
   list-style: none;
