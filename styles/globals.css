@@ -141,7 +141,9 @@ a {
   position: relative;
 }
 
-main, .footer, .nav {
+main,
+.footer,
+.nav {
   display: flex;
   flex-direction: column;
   background: linear-gradient(
@@ -151,6 +153,7 @@ main, .footer, .nav {
     )
     rgb(var(--background-start-rgb));
   border-radius: 15px;
+  color: rgb(var(--foreground-rgb));
 }
 
 hr.dotted {
